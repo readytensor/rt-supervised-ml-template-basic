@@ -4,6 +4,8 @@ This is a cookiecutter template for supervised learning models, specifically mea
 
 This template is used as part of a tutorial series on adaptable machine learning models. The tutorial series is available on the [Ready Tensor](https://www.readytensor.ai/) website.
 
+Note that the auto-generated template contains the MIT license. You may change the license as per your needs.
+
 This project is influenced by the [cookiecutter-data-science](https://github.com/drivendata/cookiecutter-data-science/tree/master).
 
 ## Project Structure
