@@ -25,7 +25,7 @@
 │   ├── prediction/
 │   ├── preprocessing/
 │   ├── schema/
-│   ├── xai/
+│   └── xai/
 ├── tests/
 │   ├── <mirrors `/src` structure ...>
 │   ...

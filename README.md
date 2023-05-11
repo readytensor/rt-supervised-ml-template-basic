@@ -32,7 +32,7 @@ This template creates the following project structure:
 │   ├── prediction/
 │   ├── preprocessing/
 │   ├── schema/
-│   ├── xai/
+│   └── xai/
 ├── tests/
 │   ├── <mirrors `/src` structure ...>
 │   ...
