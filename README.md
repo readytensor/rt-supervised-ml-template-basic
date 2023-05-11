@@ -53,22 +53,12 @@ This template creates the following project structure:
 - **`README.md`**: This file contains the documentation for the project, explaining how to set it up and use it.
 - **`requirements.txt`**: This file lists the dependencies for the project, making it easier to install all necessary packages.
 
-This project structure is designed to be clear and adaptable, making it suitable for a wide range of machine learning tasks. It's important to remember that this structure is not set in stone and can be adjusted based on the specific needs of your project. For example, you may add a `notebooks` directory in the root of the project to store Jupyter notebooks. You may also add a `docs` directory to store the documentation for the project.
+This project structure is designed to be clear and adaptable, making it suitable for a wide range of machine learning tasks. It's important to remember that this structure is not set in stone and can be adjusted based on the specific needs of your project. For example, you may add a `notebooks` directory in the root of the project to store Jupyter notebooks. You may also add a `docs` directory to store the documentation for the project. Within the `src` folder, you may add a `feature_selection` folder for feature selection scripts.
 
 ## Requirements
 
 - Python 3.6+
-- [Cookiecutter Python package](http://cookiecutter.readthedocs.org/en/latest/installation.html) >= 1.4.0:
-
-  `pip install cookiecutter`
-  or
-
-  ```bash
-  conda config --add channels conda-forge
-  conda install cookiecutter
-  ```
-
-- [Cookiecutter Python package](http://cookiecutter.readthedocs.org/en/latest/installation.html) >= 1.4.0: `conda install -c conda-forge cookiecutter`
+- cookiecutter Python package >= 1.4.0: `pip install cookiecutter`
 
 ## Usage
 
@@ -76,6 +66,12 @@ Run the following from the command line:
 
 ```bash
 cookiecutter -c v1 https://github.com/readytensor/rt-supervised-ml-template-basic
+```
+
+## Installing development dependencies within project
+
+```bash
+pip install -r requirements.txt
 ```
 
 ## Running tests
