@@ -1,0 +1,7 @@
+{
+  "project_name": "My Machine Learning Project",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+  "author_name": "Your Name",
+  "author_email": "your.email@example.com",
+  "model_type": "classification"
+}
