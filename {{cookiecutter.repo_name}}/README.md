@@ -7,6 +7,7 @@
 ## Project Structure
 
 ```bash
+├── examples/
 ├── inputs/
 │   ├── data/
 │   │   ├── testing/
@@ -37,6 +38,7 @@
 └── requirements.txt
 ```
 
+- **`/examples`**: This directory contains all files you want to use as examples. Typically, these would be small data files that can be used as examples for the ML project.
 - **`/inputs`**: This directory contains all the input files for your project, including the data and schema files. The data is further divided into testing and training subsets.
 - **`/model/artifacts`**: This directory is used to store the model artifacts, such as trained models and their parameters.
 - **`/outputs`**: The outputs directory contains all output files, including the prediction results, logs, and hyperparameter tuning outputs.
@@ -44,7 +46,7 @@
 - **`/tests`**: This directory contains all the tests for the project. It mirrors the `src` directory structure for consistency.
 - **`/tmp`**: This directory is used for storing temporary files which are not necessary to commit to the repository.
 - **`.gitignore`**: This file specifies the files and folders that should be ignored by Git.
-- **`LICENSE`**: This file contains the license for the project.
+- **`LICENSE`**: This file contains an MIT license for the project. You can change this to any other license you want.
 - **`README.md`**: This file contains the documentation for the project, explaining how to set it up and use it.
 - **`requirements.txt`**: This file lists the dependencies for the project, making it easier to install all necessary packages.
 
