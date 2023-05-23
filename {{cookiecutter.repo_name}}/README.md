@@ -21,7 +21,7 @@
 │   └── predictions/
 ├── src/
 │   ├── config/
-│   ├── data_model/
+│   ├── data_models/
 │   ├── hyperparameter_tuning/
 │   ├── prediction/
 │   ├── preprocessing/
@@ -42,7 +42,7 @@
 - **`/inputs`**: This directory contains all the input files for your project, including the data and schema files. The data is further divided into testing and training subsets.
 - **`/model/artifacts`**: This directory is used to store the model artifacts, such as trained models and their parameters.
 - **`/outputs`**: The outputs directory contains all output files, including the prediction results, logs, and hyperparameter tuning outputs.
-- **`/src`**: This directory holds the source code for the project. It is further divided into various subdirectories such as `config` for configuration files, `data_model` for data models for input validation, `hyperparameter_tuning` for hyperparameter-tuning (HPT) related files, `prediction` for prediction model scripts, `preprocessing` for data preprocessing scripts, `schema` for schema scripts, and `xai` for explainable AI scripts.
+- **`/src`**: This directory holds the source code for the project. It is further divided into various subdirectories such as `config` for configuration files, `data_models` for data models for input validation, `hyperparameter_tuning` for hyperparameter-tuning (HPT) related files, `prediction` for prediction model scripts, `preprocessing` for data preprocessing scripts, `schema` for schema scripts, and `xai` for explainable AI scripts.
 - **`/tests`**: This directory contains all the tests for the project. It mirrors the `src` directory structure for consistency. There is also a `test_resources` folder inside `/tests` which can contain any resources needed for the tests (e.g. sample data files).
 - **`/tmp`**: This directory is used for storing temporary files which are not necessary to commit to the repository.
 - **`.gitignore`**: This file specifies the files and folders that should be ignored by Git.
