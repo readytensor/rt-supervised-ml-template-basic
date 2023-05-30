@@ -37,9 +37,9 @@ This template creates the following project structure:
 ├── tests/
 │   ├── integration_tests/
 │   ├── performance_tests/
-│   ├── unit_tests/
-│   │   ├── <mirrors /src structure>
-│   │   └── ...
+│   └── unit_tests/
+│       ├── <mirrors /src structure>
+│       └── ...
 ├── tmp/
 ├── .gitignore
 ├── LICENSE
